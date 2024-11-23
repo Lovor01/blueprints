@@ -1,8 +1,14 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Showcase plugin",
+		"description": "Offer full demo of plugin with media included",
+		"author": "lovor",
+		"categories": ["plugin", "demo", "media", "images"]
+	},
 	"preferredVersions": {
 		"php": "8.3",
-		"wp": "6.5"
+		"wp": "6.7"
 	},
 	"features": {
 		"networking": true
